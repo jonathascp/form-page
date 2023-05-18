@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Formulário Simples</title>
 </head>
 <body>
+    <div class="campo">
+        <main class="principal">
+                <h2 class="titulo-cadastro">Cadastre-se</h2>
+                    <div class="form">
+                        <form class="campo-formulario" action="">
+                            <div class="form-box">
+                                <label for="inome">Nome</label>
+                                <input type="text" name="nome" id="inome" required>
+                            </div>
+                            <div class="form-box">
+                                <label for="isobrenome">Sobrenome</label>
+                                <input type="text" name="sobrenome" id="isobrenome" required>
+                            </div>
+                            <div class="form-box">
+                                <label for="iemail">E-mail</label>
+                                <input type="email" name="email" id="iemail" required>
+                            </div>
+                            <div class="campo-sexo">
+                                <p>Sexo</p>
+                                <div>
+                                    <label for="imasculino">Masculino</label>
+                                    <input type="radio" name="sexo" id="imasculino" required>
+                                    <label for="ifeminino">Feminino</label>
+                                    <input type="radio" name="sexo" id="ifeminino" required>
+                                    <label for="outros">Outros</label>
+                                    <input type="radio" name="sexo" id="outros" required>
+                                </div>
+                            </div>
+                            <div class="form-box">
+                                <label for="itel">Telefone</label>
+                                <input type="tel" name="telefone" id="itel">
+                            </div>
+                            <input type="submit" value="Enviar">
+                    </div>
+                    </form>
+                
+        </main>
+        <img src="imagens/imagem.svg" alt="img">
+    </div>
     
 </body>
 </html>

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a2be2;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 70vh;
+    background-color: #fff;
+    padding: 1.3rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.titulo-cadastro {
+    margin-bottom: 0.71em;
+    color: #3D1363;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+.form-box input {
+    width: 100%;
+    border: none;
+    background-color: #AF71E8;
+    padding: .3em;
+    outline: none;
+    color: #fff;
+}
+
+.campo-formulario {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+input[type=submit] {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2em;
+    font-size: 1.3em;
+    background-color: #AF71E8;
+    padding: .6em;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #8a2be2;
+    color:#AF71E8;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 1.5em;
+    border:3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 45);
+}
+.campo img {
+    width: 50%;
+}
+
+.campo-sexo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
