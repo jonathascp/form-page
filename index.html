@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Formulário Simples</title>
 </head>
 <body>
@@ -27,13 +28,19 @@
                             </div>
                             <div class="campo-sexo">
                                 <p>Sexo</p>
-                                <div>
-                                    <label for="imasculino">Masculino</label>
-                                    <input type="radio" name="sexo" id="imasculino" required>
-                                    <label for="ifeminino">Feminino</label>
-                                    <input type="radio" name="sexo" id="ifeminino" required>
-                                    <label for="outros">Outros</label>
-                                    <input type="radio" name="sexo" id="outros" required>
+                                <div class="input-sexo">
+                                    <div class="input-masculino">
+                                        <label for="imasculino">Masculino</label>
+                                        <input type="radio" name="sexo" id="imasculino" required>
+                                    </div>
+                                    <input-feminino>
+                                        <label for="ifeminino">Feminino</label>
+                                        <input type="radio" name="sexo" id="ifeminino" required>
+                                    </input-feminino>
+                                    <div class="input-outros">
+                                        <label for="outros">Outros</label>
+                                        <input type="radio" name="sexo" id="outros" required>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-box">
